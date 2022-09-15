@@ -1,0 +1,128 @@
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url("https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGd5bXxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #121212;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: #092327;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 100px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 20px;
+}
+nav a:hover{
+    color: blue;
+
+}
+
+
+
+@media (max-widht:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #092327;
+}
+
+p{
+    color: aliceblue;
+}
+
+h2{
+    color: aliceblue;
+}
+
+a{
+    color: aliceblue;
+}
+
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 1px;
+}
+
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box_footer .logo img{
+    width: 100px;
+}
+
+.box_footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.footer-sub-heading{
+    margin-bottom: 24px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.footer-sub-text{
+    margin-bottom: 24px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer-input{
+    padding: 8px 20px;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border: 1px solid #fff;
+}
+
+.footer-subscription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+    color: aliceblue;
+}
